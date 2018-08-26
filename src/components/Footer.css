@@ -10,6 +10,11 @@
   padding-bottom: 20px;
 }
 
+.footer-logo a {
+  text-decoration: none;
+  color: black;
+}
+
 .footer-links {
   display: flex;
   flex-direction: row;
@@ -20,4 +25,13 @@
 
 .footer-links li {
   padding: 0px 1em 0px 1em;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
 }

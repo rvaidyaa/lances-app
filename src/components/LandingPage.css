@@ -14,16 +14,37 @@
     margin: 0 auto;
 }
 
+.about-section, .how-to-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.about-section span, .how-to-section span {
+    width: 800px;
+    margin: 50px auto 50px auto;
+}
+
 .click-here-section {
     border-bottom: 0px;
 }
 
 .click-here-resources, .click-here-need-help {
+    padding-top: 30px;
     display: flex;
     flex: 1;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .click-here-resources {
     border-right: 1px solid black;
+}
+
+.click-here-resources a, .click-here-need-help  a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    width: 100px;
+    margin: 30px auto 0 auto;
 }
