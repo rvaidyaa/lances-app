@@ -1,0 +1,29 @@
+.landingpage-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.about-section, .how-to-section, .click-here-section {
+    height: 300px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.about-section h2, .how-to-section h2, .click-here-resources h3, .click-here-need-help h3 {
+    margin: 0 auto;
+}
+
+.click-here-section {
+    border-bottom: 0px;
+}
+
+.click-here-resources, .click-here-need-help {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.click-here-resources {
+    border-right: 1px solid black;
+}
