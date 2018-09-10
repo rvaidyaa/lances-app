@@ -31,7 +31,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    justify-content: space-between;
+    justify-content: space-betwen;
 
 
 }
@@ -43,7 +43,7 @@ ul {
 }
 
 .resource-details {
-    display: flx;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -53,18 +53,4 @@ ul {
     font-weight: bold;
 }
 
-.resource-year, .resource-rating {
-    display: flex;
-    flex-direction: column;
-}
 
-.resource-year .title, .resource-rating .title {
-    color: #aaa;
-    margin-bottom: 5px;
-    font-size: 0.65rem;
-    font-weight: normal;
-}
-
-.resource-rating {
-    align-items: flex-end;
-}
