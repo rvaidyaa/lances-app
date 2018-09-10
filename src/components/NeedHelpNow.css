@@ -1,3 +1,11 @@
-h2 {
+.red {
     color:red;
+}
+.wrapper {
+    display:flex;
+    flex-direction: row;
+}
+.needHelpNow {
+    flex-grow: 1;
+
 }

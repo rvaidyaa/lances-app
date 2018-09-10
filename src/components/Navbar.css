@@ -3,8 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 70px;
+    height:5em;
     border-bottom: 1px solid black;
+    background-color:cornflowerblue;
+
 }
 
 .logo {
@@ -15,7 +17,7 @@
 
 .logo a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .logo a:hover {
@@ -27,6 +29,9 @@
     flex-direction: row;
     list-style: none;
     margin-right: 2em;
+    margin-top:auto;
+    margin-bottom:auto;
+
 }
 
 .links li {
@@ -36,7 +41,7 @@
 
 .links li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .links li a:hover {
