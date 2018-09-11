@@ -1,12 +1,16 @@
 .resource-container {
     display: flex;
-
+    border-bottom: 3px solid #555;
+    padding-bottom: 25px;
+}
+h1 {
+    color: #555;
+    text-shadow:1px 1px 1px black;
+}
+h2 {
+    text-shadow:1px 1px 1px black;
 }
 
-ul {
-    display: flex;
-    padding: 20px;
-}
 .resource-item {
     flex-basis: 22%;
     display: flex;
@@ -15,8 +19,8 @@ ul {
     box-sizing: border-box;
     margin: 1.5%;
     padding:12px;;
-    border: 1px solid cornflowerblue;
-    box-shadow: 10px 10px 28px -7px cornflowerblue;
+    border: 2px solid #555;
+    box-shadow: 10px 10px 28px -7px #555;
     height:600px;
 }
 
@@ -31,9 +35,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    justify-content: space-betwen;
-
-
+    justify-content: space-between;
 }
 
 .resource-title h2 {
@@ -45,12 +47,16 @@ ul {
 .resource-details {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
-.resource-details span {
+.resource-details span, .resource-details ul {
     color: #555;
     font-size: 0.8rem;
     font-weight: bold;
+    list-style: none;
+    align-items: flex-start;
+
 }
 
 

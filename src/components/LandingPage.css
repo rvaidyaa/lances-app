@@ -7,17 +7,29 @@
 .about-section, .how-to-section, .click-here-section {
     height: 300px;
     display: flex;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid #555;
 }
 
 .about-section h2, .how-to-section h2, .click-here-resources h3, .click-here-need-help h3 {
     margin: 0 auto;
 }
-
+.about-section h2{
+    color:#555;
+}
 .about-section, .how-to-section {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    color: #555;
+    text-shadow:1px 1px 1px black;
+}
+.how-to-section {
+    background-color:cornflowerblue;
+    color:white;
+    text-shadow:1px 1px 1px #555;
+}
+.how-to-section h2{
+    color:white;
 }
 
 .about-section span, .how-to-section span {
@@ -25,26 +37,27 @@
     margin: 50px auto 50px auto;
 }
 
-.click-here-section {
-    border-bottom: 0px;
-}
+
 
 .click-here-resources, .click-here-need-help {
     padding-top: 30px;
     display: flex;
     flex: 1;
     flex-direction: column;
+    color:#555;
+    text-shadow:1px 1px 1px black;
 }
 
 .click-here-resources {
-    border-right: 1px solid black;
+    border-right: 3px solid #555;
 }
 
 .click-here-resources a, .click-here-need-help  a {
     text-decoration: none;
-    color: black;
+    color: #555;
     padding: 20px;
     border: 1px solid black;
     width: 100px;
     margin: 30px auto 0 auto;
+    border-radius:3%;
 }

@@ -7,10 +7,10 @@
   bottom: 0;
 */
   width: 100%;
-  border-top: 1px solid black;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color:cornflowerblue;
+    text-shadow:1px 1px 1px #555;
 }
 
 .footer-logo a {

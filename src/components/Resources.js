@@ -11,8 +11,9 @@ export default class Resources extends Component {
                     <img src="https://financialtribune.com/sites/default/files/field/image/17january/12_mental_2.jpg" alt="" />
                     <div class="resource-title">
                         <h2>Mental Health & Substance Abuse</h2>
-                        <section class="resource-details">
-                        <span> Details</span>
+                        <section class="resource-details">.
+                            <span> St Lukes's Behavioral Health Center Phoenix (602-251-8535)</span><br></br>
+                            <span> St Lukes's Behavioral Health Center Phoenix (602-251-8535)</span><br></br>
                         </section>
                     </div>
                 </li>
@@ -21,7 +22,8 @@ export default class Resources extends Component {
                     <div class="resource-title">
                         <h2>Support & Recovery</h2>
                         <section class="resource-details">
-                            <span> Details</span>
+                            <span> St Lukes's Behavioral Health Center Phoenix (602-251-8535)</span><br></br>
+                            <span> St Lukes's Behavioral Health Center Phoenix (602-251-8535)</span><br></br>
                         </section>
                     </div>
                 </li>
@@ -30,7 +32,8 @@ export default class Resources extends Component {
                     <div class="resource-title">
                         <h2>Domestic Violence / Sexual Assault</h2>
                         <section class="resource-details">
-                            <span> Details</span>
+                            <span> St Lukes's Behavioral Health Center Phoenix (602-251-8535)</span><br></br>
+                            <span> St Lukes's Behavioral Health Center Phoenix (602-251-8535)</span><br></br>
                         </section>
                     </div>
                 </li>
@@ -39,7 +42,8 @@ export default class Resources extends Component {
                     <div class="resource-title">
                         <h2>Resource Directories</h2>
                         <section class="resource-details">
-                            <span> Details</span>
+                            <span> St Lukes's Behavioral Health Center Phoenix (602-251-8535)</span><br></br>
+                            <span> St Lukes's Behavioral Health Center Phoenix (602-251-8535)</span><br></br>
                         </section>
                     </div>
                 </li>
